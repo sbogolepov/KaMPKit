@@ -4,6 +4,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
     }
     dependencies {
         classpath(Deps.android_gradle_plugin)
@@ -25,6 +26,9 @@ allprojects {
         google()
         mavenCentral()
         maven(url = "https://oss.sonatype.org/content/repositories/snapshots/")
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
+        maven("https://maven.pkg.jetbrains.space/public/p/kotlinx-coroutines/maven")
+        maven("https://maven.pkg.jetbrains.space/public/p/ktor/eap")
     }
 }
 

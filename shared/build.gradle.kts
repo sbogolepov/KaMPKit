@@ -134,3 +134,9 @@ sqldelight {
         packageName = "co.touchlab.kampkit.db"
     }
 }
+
+kotlin.targets.withType(KotlinNativeTarget::class.java) {
+    binaries.all {
+        binaryOptions["memoryModel"] = "experimental"
+    }
+}

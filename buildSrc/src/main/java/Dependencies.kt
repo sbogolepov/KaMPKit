@@ -3,15 +3,15 @@ object Versions {
     val target_sdk = 30
     val compile_sdk = 30
 
-    val kotlin = "1.5.21"
+    val kotlin = "1.6.0-M1-139"
     val android_gradle_plugin = "7.0.0"
 
     val buildToolsVersion = "30.0.3"
-    val coroutines = "1.5.0-native-mt"
+    val coroutines = "1.5.1-new-mm-dev2"
     val kermit = "0.1.9"
     val koin = "3.0.2"
     val ktlint_gradle_plugin = "10.0.0"
-    val ktor = "1.6.0"
+    val ktor = "1.6.2-native-mm-eap-196"
     val junit = "4.13.2"
     val material = "1.3.0"
     val desugarJdkLibs = "1.1.5"
