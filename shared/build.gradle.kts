@@ -138,5 +138,6 @@ sqldelight {
 kotlin.targets.withType(KotlinNativeTarget::class.java) {
     binaries.all {
         binaryOptions["memoryModel"] = "experimental"
+        binaryOptions["freezing"] = "disabled"
     }
 }
